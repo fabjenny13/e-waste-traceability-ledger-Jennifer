@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const prisma = require("./utils/prisma");
-const authRoutes = require("./routes/auth");
+const authRoutes = require("./routes/authRoutes");
 const deviceRoutes = require("./routes/deviceRoutes");
 
 const app = express();
